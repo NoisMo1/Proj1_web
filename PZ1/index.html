@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Флорум — растения с доставкой</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header__inner">
+    <a href="#" class="header__logo">Флорум</a>
+    <nav class="header__nav">
+      <a class="header__link" href="#catalog">Каталог</a>
+      <a class="header__link" href="#care">Уход</a>
+      <a class="header__link" href="#about">О нас</a>
+    </nav>
+    <button class="header__login" type="button">Войти</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">Живые растения приезжают к вам, а не наоборот</h1>
+        <p class="hero__text">Флорум подбирает комнатные растения под освещение и ритм вашей квартиры, привозит их в удобное время и остаётся на связи всё первое лето — пока горшок не приживётся окончательно.</p>
+        <div class="hero__actions">
+          <button class="hero__cta" type="button">Подобрать растение</button>
+          <span class="hero__note">Доставка по городу — 1–2 дня</span>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img class="hero__image" src="https://picsum.photos/seed/florum-monstera/720/860" alt="Монстера в напольном кашпо у окна">
+        <div class="hero__media-tag">
+          <span class="hero__media-number">92%</span>
+          <span class="hero__media-label">растений приживаются с первого раза</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog" id="catalog">
+    <div class="catalog__inner">
+      <div class="catalog__header">
+        <h2 class="catalog__title">Каталог растений</h2>
+        <p class="catalog__intro">Шесть характеров, шесть уровней сложности — от тех, кто простит забытый полив, до тех, что требуют внимания каждый день.</p>
+      </div>
+
+      <ul class="catalog__grid">
+
+        <li class="product-card">
+          <img class="product-card__image" src="https://media.istockphoto.com/id/1448106563/ru/фото/комнатное-растение-монстера.jpg?s=612x612&w=0&k=20&c=dGtzP8QFSaIH0opbs2g66ijRonkS6S5ofKOv9mhZxCg=" alt="Монстера деликатесная">
+          <div class="product-card__body">
+            <h3 class="product-card__title">Монстера</h3>
+            <p class="product-card__description">Крупные резные листья, растёт быстро, любит рассеянный свет.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">от 2 400 ₽</span>
+              <button class="product-card__button" type="button">Подробнее</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img class="product-card__image" src="https://media.istockphoto.com/id/2174258125/ru/фото/комнатные-растения-у-окна.jpg?s=612x612&w=0&k=20&c=wdL6USrCLnBShSAsZuez0TupLwBftHRu6VK1fluDtRs=" alt="Фикус лировидный">
+          <div class="product-card__body">
+            <h3 class="product-card__title">Фикус лировидный</h3>
+            <p class="product-card__description">Скульптурный силуэт для просторной комнаты, не любит переезды.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">от 3 100 ₽</span>
+              <button class="product-card__button" type="button">Подробнее</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img class="product-card__image" src="https://media.istockphoto.com/id/1398268774/ru/фото/горшечное-растение-и-красивая-картинка-на-сером-комоде-в-комнате-место-для-текста-дизайн.jpg?s=612x612&w=0&k=20&c=-n2cCPXfvtVGrQAEsU22vv4Zq3iFsBTeFeTgHzk408s=" alt="Сансевиерия">
+          <div class="product-card__body">
+            <h3 class="product-card__title">Сансевиерия</h3>
+            <p class="product-card__description">Почти неубиваемая: терпит тень и редкий полив без потерь.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">от 1 200 ₽</span>
+              <button class="product-card__button" type="button">Подробнее</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img class="product-card__image" src="https://media.istockphoto.com/id/1452762257/ru/фото/calathea-makoyana-в-цветочном-горшке-зеленые-комнатные-растения.jpg?s=612x612&w=0&k=20&c=PC94RloAM2LwJ4KqDvIO-bAJ50lxZmXukP9_gKM63Bk=" alt="Калатея">
+          <div class="product-card__body">
+            <h3 class="product-card__title">Калатея</h3>
+            <p class="product-card__description">Узорчатые листья складываются к вечеру — живой барометр влажности.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">от 1 800 ₽</span>
+              <button class="product-card__button" type="button">Подробнее</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img class="product-card__image" src="https://rastenievod.com/wp-content/uploads/2016/05/6-50-700x525.jpg" alt="Композиция суккулентов">
+          <div class="product-card__body">
+            <h3 class="product-card__title">Суккуленты, набор</h3>
+            <p class="product-card__description">Три вида в одном кашпо для подоконника с ярким солнцем.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">от 990 ₽</span>
+              <button class="product-card__button" type="button">Подробнее</button>
+            </div>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img class="product-card__image" src="https://media.istockphoto.com/id/2244356821/ru/фото/несколько-декоративных-растений-висят-в-горшках-наиболее-известными-растениями-являются.jpg?s=612x612&w=0&k=20&c=-CpNlZLqLbAH5lIBlDEq6j2UFFrv0N_NLRHIYxntuQQ=" alt="Нефролепис">
+          <div class="product-card__body">
+            <h3 class="product-card__title">Нефролепис</h3>
+            <p class="product-card__description">Пышный папоротник для ванной или кухни с высокой влажностью.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">от 1 500 ₽</span>
+              <button class="product-card__button" type="button">Подробнее</button>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section class="benefits" id="care">
+    <div class="benefits__inner">
+      <h2 class="benefits__title">Почему выбирают Флорум</h2>
+      <div class="benefits__list">
+
+        <div class="benefits__item">
+          <h3 class="benefits__item-title">Подбор под квартиру</h3>
+          <p class="benefits__item-text">Спрашиваем про освещение и отопление, чтобы растение не болело первый месяц.</p>
+        </div>
+
+        <div class="benefits__item">
+          <h3 class="benefits__item-title">Гарантия приживаемости</h3>
+          <p class="benefits__item-text">Если растение не прижилось за 30 дней — заменим бесплатно, без лишних вопросов.</p>
+        </div>
+
+        <div class="benefits__item">
+          <h3 class="benefits__item-title">Бережная доставка</h3>
+          <p class="benefits__item-text">Каждый горшок едет в собственном каркасе, листья не мнутся в дороге.</p>
+        </div>
+
+        <div class="benefits__item">
+          <h3 class="benefits__item-title">Поддержка на связи</h3>
+          <p class="benefits__item-text">Пишете фото листа в чат — агроном отвечает в течение дня.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="about">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <p class="footer__logo">Флорум</p>
+      <p class="footer__tagline">Комнатные растения с доставкой и сопровождением.</p>
+    </div>
+
+    <div class="footer__contacts">
+      <h3 class="footer__heading">Контакты</h3>
+      <address class="footer__address">
+        <p>г. Ростов-на-Дону, ул. Садовая, 14</p>
+        <p><a class="footer__link" href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+        <p><a class="footer__link" href="mailto:hello@florum.example">hello@florum.example</a></p>
+      </address>
+    </div>
+
+    <div class="footer__social">
+      <h3 class="footer__heading">Мы в сети</h3>
+      <ul class="footer__social-list">
+        <li><a class="footer__link" href="#">Telegram</a></li>
+        <li><a class="footer__link" href="#">VK</a></li>
+        <li><a class="footer__link" href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>© 2026 Флорум. Все права защищены.</p>
+  </div>
+</footer>
+
+</body>
+</html>
